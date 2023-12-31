@@ -14,11 +14,12 @@ export const Home: React.FC = () => {
                     </div>
                     <div className="w-full md:w-1/2 py-8 text-right">
                         <Image
-                            src="/webdeveloper.gif"
-                            alt="webdeveloper"
+                            src="/itdeveloper.gif"
+                            alt="itdeveloper"
                             priority
-                            width={20}
+                            width={200}
                             height={12}
+                            className='ml-20'
                         />
                     </div>
                 </div>

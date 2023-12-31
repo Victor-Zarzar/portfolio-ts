@@ -1,5 +1,8 @@
 import React from 'react'
 import Image from "next/image";
+import ReactIcon from '../icons/react';
+import FlutterIcon from '../icons/flutter';
+import DockerIcon from '../icons/docker';
 
 export const Skills: React.FC = () => {
     return (
@@ -49,23 +52,19 @@ export const Skills: React.FC = () => {
                         <div className="pattern-dots-md gray-light">
                             <div className="rounded-2xl bg-gray-800 p-4 transform translate-x-6 -translate-y-6">
                                 <div className="w-10 h-10 inline-flex items-center justify-center rounded-full bg-green-100 text-green-500 mb-5 flex-shrink-0 p-2">
-                                    <Image
-                                        src="/src/app/assets/webdeveloper.gif"
-                                        alt="webdeveloper"
-                                        width={12}
-                                        height={12}
-                                        priority
-                                    />
+                                <ReactIcon />
                                 </div>
                                 <div className="flex-grow h-[20rem] w-[16rem] md:h-[21rem] md:w-[22rem] lg:h-[21rem] lg:w-[20rem]">
                                     <span className="absolute inset-x-0 bottom-0 h-2 bg-gradient-to-r from-[#44BCFF] via-[#FF44EC] to-[#FF675E]"></span>
                                     <h2 className="text-lg md:text-lg lg:text-xl title-font font-medium mb-3">Front End</h2>
-                                    <ul className="text-lg text-justify">
+                                    <ul className="text-sm text-justify">
                                         <li className="mb-2">HTML</li>
                                         <li className="mb-2">Tailwind CSS</li>
                                         <li className="mb-2">Styled Components</li>
                                         <li className="mb-2">Javascript</li>
                                         <li className="mb-2">React</li>
+                                        <li className="mb-2">TypeScript</li>
+                                        <li className="mb-2">Next.js</li>
                                         <li className="mb-2">Cypress</li>
                                         <li className="mb-2">Fast API - Swagger</li>
                                         <li className="mb-2">Postman</li>
@@ -78,18 +77,12 @@ export const Skills: React.FC = () => {
                         <div className="pattern-dots-md gray-light">
                             <div className="rounded-2xl bg-gray-800 p-4 transform translate-x-6 -translate-y-6">
                                 <div className="w-10 h-10 inline-flex items-center justify-center rounded-full bg-blue-100 text-blue-500 mb-5 flex-shrink-0">
-                                    <Image
-                                        src="/src/app/assets/webdeveloper.gif"
-                                        alt="webdeveloper"
-                                        width={12}
-                                        height={12}
-                                        priority
-                                    />
+                                <FlutterIcon />
                                 </div>
                                 <div className="flex-grow h-[20rem] w-[16rem] md:h-[21rem] md:w-[22rem] lg:h-[21rem] lg:w-[20rem]">
                                     <span className="absolute inset-x-0 bottom-0 h-2 bg-gradient-to-r from-[#44BCFF] via-[#FF44EC] to-[#FF675E]"></span>
                                     <h2 className="text-lg md:text-lg lg:text-xl title-font font-medium mb-3">Mobile</h2>
-                                    <ul className="text-lg text-justify">
+                                    <ul className="text-sm text-justify">
                                         <li className="mb-2">Dart</li>
                                         <li className="mb-2">Flutter</li>
                                         <li className="mb-2">Android Studio</li>
@@ -104,18 +97,12 @@ export const Skills: React.FC = () => {
                         <div className="pattern-dots-md gray-light">
                             <div className="rounded-2xl bg-gray-800 p-4 transform translate-x-6 -translate-y-6">
                                 <div className="w-10 h-10 inline-flex items-center justify-center rounded-full bg-yellow-100 text-yellow-500 mb-5 flex-shrink-0">
-                                    <Image
-                                        src="/src/app/assets/webdeveloper.gif"
-                                        alt="webdeveloper"
-                                        width={12}
-                                        height={12}
-                                        priority
-                                    />
+                                <DockerIcon />
                                 </div>
                                 <div className="flex-grow h-[20rem] w-[16rem] md:h-[21rem] md:w-[22rem] lg:h-[21rem] lg:w-[20rem]">
                                     <span className="absolute inset-x-0 bottom-0 h-2 bg-gradient-to-r from-[#44BCFF] via-[#FF44EC] to-[#FF675E]"></span>
                                     <h2 className="text-lg md:text-lg lg:text-xl title-font font-medium mb-3">Technologies</h2>
-                                    <ul className="text-lg text-justify">
+                                    <ul className="text-sm text-justify">
                                         <li className="mb-2">Docker</li>
                                         <li className="mb-2">Git</li>
                                         <li className="mb-2">GitHub</li>
