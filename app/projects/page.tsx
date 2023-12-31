@@ -3,7 +3,7 @@ import React from "react";
 import Layout from "../components/Layout";
 import Projects from "../components/pages/Projects";
 
-const AboutPage: React.FC = () => {
+const ProjectsPage: React.FC = () => {
   return (
     <Layout>
       <Projects />
@@ -11,4 +11,4 @@ const AboutPage: React.FC = () => {
   );
 };
 
-export default AboutPage;
+export default ProjectsPage;

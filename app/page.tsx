@@ -4,7 +4,8 @@ import { useState } from "react";
 import { ThemeProvider, createGlobalStyle, DefaultTheme } from "styled-components";
 import Navbar from "./components/Navbar";
 import Home from "./components/pages/Home";
-
+import Location from "./components/pages/Location";
+import Skills from "./components/pages/Skills";
 interface ThemeProps {
   body: string;
 }
@@ -31,7 +32,8 @@ export default function App() {
         <GlobalStyle theme={theme === "light" ? dark : light} />
         <Navbar theme={theme} setTheme={setTheme} />
         <Home />
-     
+        <Skills />
+        <Location />
         <Footer />
       </ThemeProvider>
     </main>
