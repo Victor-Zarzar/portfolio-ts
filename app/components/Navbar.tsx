@@ -27,6 +27,7 @@ const Navbar: React.FC<NavbarProps> = ({ theme, setTheme }) => {
             width={25}
             height={20}
             priority
+            className="h-8 w-7 md:w-8 md:h-8 lg:w-8 lg:h-8 ml-1"
           />
         </div>
         <div

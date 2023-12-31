@@ -24,6 +24,7 @@ export const Skills: React.FC = () => {
                                     width={60}
                                     height={12}
                                     priority
+                                    className='h-10 w-10 md:w-12 md:h-12 lg:w-16 lg:h-16'
                                 />
                             </li>
                             <li>
@@ -33,6 +34,7 @@ export const Skills: React.FC = () => {
                                     width={60}
                                     height={12}
                                     priority
+                                    className='h-10 w-10 md:w-12 md:h-12 lg:w-16 lg:h-16'
                                 />
                             </li>
                             <li>
@@ -42,6 +44,7 @@ export const Skills: React.FC = () => {
                                     width={60}
                                     height={12}
                                     priority
+                                    className='h-10 w-10 md:w-12 md:h-12 lg:w-16 lg:h-16'
                                 />
                             </li>
                         </ul>
@@ -52,7 +55,7 @@ export const Skills: React.FC = () => {
                         <div className="pattern-dots-md gray-light">
                             <div className="rounded-2xl bg-gray-800 p-4 transform translate-x-6 -translate-y-6">
                                 <div className="w-10 h-10 inline-flex items-center justify-center rounded-full bg-green-100 text-green-500 mb-5 flex-shrink-0 p-2">
-                                <ReactIcon />
+                                    <ReactIcon />
                                 </div>
                                 <div className="flex-grow h-[20rem] w-[16rem] md:h-[21rem] md:w-[22rem] lg:h-[21rem] lg:w-[20rem]">
                                     <span className="absolute inset-x-0 bottom-0 h-2 bg-gradient-to-r from-[#44BCFF] via-[#FF44EC] to-[#FF675E]"></span>
@@ -77,7 +80,7 @@ export const Skills: React.FC = () => {
                         <div className="pattern-dots-md gray-light">
                             <div className="rounded-2xl bg-gray-800 p-4 transform translate-x-6 -translate-y-6">
                                 <div className="w-10 h-10 inline-flex items-center justify-center rounded-full bg-blue-100 text-blue-500 mb-5 flex-shrink-0">
-                                <FlutterIcon />
+                                    <FlutterIcon />
                                 </div>
                                 <div className="flex-grow h-[20rem] w-[16rem] md:h-[21rem] md:w-[22rem] lg:h-[21rem] lg:w-[20rem]">
                                     <span className="absolute inset-x-0 bottom-0 h-2 bg-gradient-to-r from-[#44BCFF] via-[#FF44EC] to-[#FF675E]"></span>
@@ -97,7 +100,7 @@ export const Skills: React.FC = () => {
                         <div className="pattern-dots-md gray-light">
                             <div className="rounded-2xl bg-gray-800 p-4 transform translate-x-6 -translate-y-6">
                                 <div className="w-10 h-10 inline-flex items-center justify-center rounded-full bg-yellow-100 text-yellow-500 mb-5 flex-shrink-0">
-                                <DockerIcon />
+                                    <DockerIcon />
                                 </div>
                                 <div className="flex-grow h-[20rem] w-[16rem] md:h-[21rem] md:w-[22rem] lg:h-[21rem] lg:w-[20rem]">
                                     <span className="absolute inset-x-0 bottom-0 h-2 bg-gradient-to-r from-[#44BCFF] via-[#FF44EC] to-[#FF675E]"></span>

@@ -18,8 +18,8 @@ export const Home: React.FC = () => {
                             alt="itdeveloper"
                             priority
                             width={200}
-                            height={12}
-                            className='ml-20'
+                            height={100}
+                            className='h-40 w-40 md:h-60 md:w-60 lg:h-60 lg:w-60 md:mt-0 lg:mt-0 xl:mt-0 2xl:mt-1 inline-block'
                         />
                     </div>
                 </div>
