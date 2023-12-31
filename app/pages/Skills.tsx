@@ -16,27 +16,27 @@ export const Skills: React.FC = () => {
                         <ul className="flex justify-center mt-5 space-x-10">
                             <li>
                                 <Image
-                                    src="/src/app/assets/webdeveloper.gif"
+                                    src="/git.gif"
                                     alt="webdeveloper"
-                                    width={12}
+                                    width={60}
                                     height={12}
                                     priority
                                 />
                             </li>
                             <li>
                                 <Image
-                                    src="/src/app/assets/webdeveloper.gif"
+                                    src="/restapi.gif"
                                     alt="webdeveloper"
-                                    width={12}
+                                    width={60}
                                     height={12}
                                     priority
                                 />
                             </li>
                             <li>
                                 <Image
-                                    src="/src/app/assets/webdeveloper.gif"
+                                    src="/terminal.gif"
                                     alt="webdeveloper"
-                                    width={12}
+                                    width={60}
                                     height={12}
                                     priority
                                 />

@@ -14,10 +14,10 @@ export const Home: React.FC = () => {
                     </div>
                     <div className="w-full md:w-1/2 py-8 text-right">
                         <Image
-                            src="/src/app/assets/webdeveloper.gif"
+                            src="/webdeveloper.gif"
                             alt="webdeveloper"
                             priority
-                            width={12}
+                            width={20}
                             height={12}
                         />
                     </div>

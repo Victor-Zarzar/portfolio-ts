@@ -22,10 +22,10 @@ const Navbar: React.FC<NavbarProps> = ({ theme, setTheme }) => {
         <div className="font-bold text-2xl cursor-pointer flex items-center gap-1">
           <span className="text-xl text-gray-400 hover:text-white focus:outline-none pl-6 md:pl-20">Victor Zarzar</span>
           <Image
-            src="/src/app/assets/webdeveloper.gif"
+            src="/webdeveloper.gif"
             alt="webdeveloper"
-            width={12}
-            height={12}
+            width={25}
+            height={20}
             priority
           />
         </div>

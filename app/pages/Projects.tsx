@@ -1,9 +1,9 @@
 import React from 'react'
 import Image from "next/image";
 import Link from "next/link";
-import todo from "../assets/projects/todo.png";
-import portfolio from "../assets/projects/portfolio.png";
-import mario from "../assets/projects/mario.png";
+import todo from './todo.png';
+import portfolio from './portfolio.png';
+import mario from './mario.png';
 
 export default function Projects() {
 

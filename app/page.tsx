@@ -3,9 +3,9 @@ import { Footer } from "./components/Footer";
 import { useState } from "react";
 import { ThemeProvider, createGlobalStyle, DefaultTheme } from "styled-components";
 import Navbar from "./components/Navbar";
-import Home from "./components/pages/Home";
-import Location from "./components/pages/Location";
-import Skills from "./components/pages/Skills";
+import Home from "./pages/Home";
+import Location from "./pages/Location";
+import Skills from "./pages/Skills";
 interface ThemeProps {
   body: string;
 }
