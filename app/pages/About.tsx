@@ -2,6 +2,9 @@ import React from 'react'
 import Image from "next/image";
 import Link from "next/link";
 import { TbFileDownload } from "react-icons/tb";
+import { FaBug } from "react-icons/fa";
+import { FaDev } from "react-icons/fa6";
+import { IoSchool } from "react-icons/io5";
 
 export const About: React.FC = () => {
   return (
@@ -14,11 +17,12 @@ export const About: React.FC = () => {
             </div>
           </div>
           <Image
-            src="/src/app/assets/webdeveloper.gif"
+            src="/profile.jpg"
             alt="webdeveloper"
-            width={12}
-            height={12}
+            width={200}
+            height={200}
             priority
+            className="w-40 h-40 md:w-72 md:h-72 bg-gray-300 rounded-full mb-4 shrink-0 mx-auto mt-14"
           />
           <p className="text-base leading-relaxed text-center xl:w-2/4 lg:w-3/4 mx-auto text-purple-900 md:text-2xl lg:text-2xl font-semibold tracking-tighter mt-10">
             My first contact with programming was in 2009, using SQL-SERVER 2000 & My SQL technologies, creating, restoring and editing databases, and creating sites in PHP.
@@ -34,25 +38,13 @@ export const About: React.FC = () => {
           </div>
           <div className="flex">
             <div className="flex items-center mx-auto mt-10">
-              <Image
-                src="/src/app/assets/webdeveloper.gif"
-                alt="webdeveloper"
-                width={12}
-                height={12}
-                priority
-              />
+              <FaBug className="w-5 h-4 md:w-8 md:h-6 text-gray-500" />
               <span className="text-sm leading-relaxed text-purple-900 md:text-2xl lg:text-2xl font-semibold tracking-tighter">QA Tester - Freelancer - December 2022 - March 2023</span>
             </div>
           </div>
           <div className="flex">
             <div className="flex items-center mx-auto mt-5">
-              <Image
-                src="/src/app/assets/webdeveloper.gif"
-                alt="webdeveloper"
-                width={12}
-                height={12}
-                priority
-              />
+              <FaDev className="w-5 h-4 md:w-8 md:h-6 text-gray-500" />
               <span className="text-base leading-relaxed text-purple-900 md:text-2xl lg:text-2xl font-semibold tracking-tighter">Software Developer JR - March 2023 - Present</span>
             </div>
           </div>
@@ -66,13 +58,7 @@ export const About: React.FC = () => {
         </div>
         <div className="flex">
           <div className="flex items-center mx-auto mt-10">
-            <Image
-              src="/src/app/assets/webdeveloper.gif"
-              alt="webdeveloper"
-              width={12}
-              height={12}
-              priority
-            />
+            <IoSchool className="w-5 h-4 md:w-8 md:h-6 text-gray-500" />
             <span className="text-base leading-relaxed text-purple-900 md:text-2xl lg:text-2xl font-semibold tracking-tighter">Analysis and systems development - Ampli/SP</span>
           </div>
         </div>
@@ -148,11 +134,12 @@ export const About: React.FC = () => {
           <div className="flex">
             <div className="flex items-center mx-auto mt-10">
               <Image
-                src="/src/app/assets/webdeveloper.gif"
+                src="/us.png"
                 alt="webdeveloper"
-                width={12}
-                height={12}
+                width={20}
+                height={20}
                 priority
+                className='h-5 w-5 md:w-7 md:h-7 lg:w-7 lg:h-7 mr-1'
               />
               <span className="text-base leading-relaxed text-purple-900 md:text-2xl lg:text-2xl font-semibold tracking-tighter">EN - Basic</span>
             </div>
@@ -160,11 +147,12 @@ export const About: React.FC = () => {
           <div className="flex">
             <div className="flex items-center mx-auto mt-5">
               <Image
-                src="/src/app/assets/webdeveloper.gif"
+                src="/br.png"
                 alt="webdeveloper"
-                width={12}
-                height={12}
+                width={20}
+                height={20}
                 priority
+                className='h-5 w-5 md:w-7 md:h-7 lg:w-7 lg:h-7 mr-1'
               />
               <span className="text-base leading-relaxed text-purple-900 md:text-2xl lg:text-2xl font-semibold tracking-tighter">PT-BR - Native Speaker</span>
             </div>
