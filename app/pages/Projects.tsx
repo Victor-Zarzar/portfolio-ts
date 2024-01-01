@@ -1,11 +1,12 @@
 import React from 'react'
 import Image from "next/image";
 import Link from "next/link";
-import todo from './todo.png';
-import portfolio from './portfolio.png';
-import mario from './mario.png';
 
 export default function Projects() {
+
+    const todo = '/todo.png';
+    const portfolio = '/portfolio.png';
+    const mario = '/mario.png';
 
     const projects = [
         {
@@ -54,13 +55,7 @@ export default function Projects() {
                         <div key={index} className="relative">
                             <div className="flex flex-col shadow-sm h-[26rem] w-auto md:h-[28rem] md:w-[25rem] lg:h-[28rem] lg:w-[25rem] bg-gray-800 p-8 rounded-2xl">
                                 <a href={sourceCodeLinks[index]} target="_blank" rel="noreferrer" className="mb-4">
-                                    <Image
-                                        src="/src/app/assets/webdeveloper.gif"
-                                        alt="webdeveloper"
-                                        width={12}
-                                        height={12}
-                                        priority
-                                    />
+                                    <Image src={project.photo} alt={project.title} width={12} height={12} priority />
                                 </a>
                                 <h3 className="title-projects mb-4 text-lg font-extrabold leading-10 tracking-tight md:text-lg text-blue-500 text-center">
                                     {project.title}

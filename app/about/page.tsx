@@ -1,12 +1,12 @@
 'use client';
 import React from "react";
 import Layout from "../components/Layout";
-import Projects from "../pages/Projects";
+import About from "../pages/About";
 
 const AboutPage: React.FC = () => {
   return (
     <Layout>
-      <Projects />
+      <About/>
     </Layout>
   );
 };
