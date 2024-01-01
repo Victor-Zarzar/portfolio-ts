@@ -10,7 +10,7 @@ interface NavbarProps {
 
 const Navbar: React.FC<NavbarProps> = ({ theme, setTheme }) => {
   const Links = [
-    { name: "Home", link: "portfolio" },
+    { name: "Home", link: "/" },
     { name: "About me", link: "about" },
     { name: "Projects", link: "projects" },
   ];

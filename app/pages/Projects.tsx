@@ -31,7 +31,7 @@ export default function Projects() {
 
     const sourceCodeLinks = [
         "https://github.com/Victor-Zarzar/ToDoList-Flutter",
-        "https://github.com/Victor-Zarzar/portfolio-vz",
+        "https://github.com/Victor-Zarzar/portfolio-ts",
         "https://github.com/Victor-Zarzar/SuperMario-Flutter",
     ];
 
@@ -55,7 +55,7 @@ export default function Projects() {
                         <div key={index} className="relative">
                             <div className="flex flex-col shadow-sm h-[26rem] w-auto md:h-[28rem] md:w-[25rem] lg:h-[28rem] lg:w-[25rem] bg-gray-800 p-8 rounded-2xl">
                                 <a href={sourceCodeLinks[index]} target="_blank" rel="noreferrer" className="mb-4">
-                                    <Image src={project.photo} alt={project.title} width={12} height={12} priority />
+                                    <Image src={project.photo} alt={project.title} width={350} height={200} priority />
                                 </a>
                                 <h3 className="title-projects mb-4 text-lg font-extrabold leading-10 tracking-tight md:text-lg text-blue-500 text-center">
                                     {project.title}
@@ -78,7 +78,7 @@ export default function Projects() {
                 <div className="py-8 z-10 font-serif mt-40 flex items-center justify-center">
                     <div className="container-button relative inline-flex group max-w-6xl mb-2">
                         <div className="absolute transition-all duration-1000 opacity-70 -inset-px bg-gradient-to-r from-[#44BCFF] via-[#FF44EC] to-[#FF675E] rounded-xl blur-lg filter group-hover:opacity-100 group-hover:-inset-1 group-hover:duration-200"></div>
-                        <Link href="/portfolio/home">
+                        <Link href="/">
                             <button className="relative inline-flex items-center justify-center w-[10rem] md:w-[12rem] lg:w-[13rem] text-[10px] md:text-xs lg:text-xs px-8 py-4 font-bold text-white transition-all duration-200 bg-neutral-800 font-pj rounded-xl focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-900" type="button">
                                 Back to Home Page
                             </button>

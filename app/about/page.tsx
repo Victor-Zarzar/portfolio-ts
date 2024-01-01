@@ -1,11 +1,13 @@
 'use client';
-import React from "react";
+import React, { useState } from "react";
 import Layout from "../components/Layout";
 import About from "../pages/About";
 
 const AboutPage: React.FC = () => {
+  const [theme, setTheme] = useState("light");
+
   return (
-    <Layout>
+    <Layout theme={theme} setTheme={setTheme}>
       <About/>
     </Layout>
   );
