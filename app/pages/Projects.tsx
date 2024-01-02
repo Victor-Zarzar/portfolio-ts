@@ -50,7 +50,7 @@ export default function Projects() {
                 <p className="text-base leading-relaxed text-purple-900 md:text-2xl lg:text-2xl font-semibold tracking-tighter mb-16 text-center">
                     Here are a few of my live, real-world projects
                 </p>
-                <div className="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-y-10 gap-10 md:gap-16 lg:gap-24 xl:gap-20">
+                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-3 gap-y-10 gap-10 md:gap-16 lg:gap-24 xl:gap-20">
                     {projects.map((project, index) => (
                         <div key={index} className="relative">
                             <div className="flex flex-col shadow-sm h-[26rem] w-auto md:h-[28rem] md:w-auto lg:h-[28rem] lg:w-auto bg-gray-800 p-8 rounded-2xl">
