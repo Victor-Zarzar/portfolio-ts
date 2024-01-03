@@ -6,7 +6,7 @@ import { FaBug } from "react-icons/fa";
 import { FaDev } from "react-icons/fa6";
 import { IoSchool } from "react-icons/io5";
 
-export const About: React.FC = () => {
+export default function About() {
   return (
     <>
       <div className="col-span-4">
@@ -173,5 +173,3 @@ export const About: React.FC = () => {
     </>
   );
 }
-
-export default About;
