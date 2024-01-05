@@ -1,6 +1,6 @@
 import React from 'react'
 
-export const Location: React.FC = () => {
+export default function Location() {
     return (
         <>
             <div className="col-span-4 mt-20">
@@ -61,5 +61,3 @@ export const Location: React.FC = () => {
         </>
     )
 }
-
-export default Location;

@@ -1,5 +1,5 @@
 import { Metadata } from "next";
-import Home from "./pages/Home";
+import Header from "./pages/Header";
 import Location from "./pages/Location";
 import Skills from "./pages/Skills";
 
@@ -13,9 +13,9 @@ export default function App() {
   return (
     <main>
       <link rel="shortcut icon" href="./favicon.ico"></link>
-        <Home />
-        <Skills />
-        <Location />
+      <Header />
+      <Skills />
+      <Location />
     </main>
   )
 }

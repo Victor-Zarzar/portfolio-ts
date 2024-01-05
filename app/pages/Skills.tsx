@@ -4,7 +4,7 @@ import ReactIcon from '../icons/react';
 import FlutterIcon from '../icons/flutter';
 import DockerIcon from '../icons/docker';
 
-export const Skills: React.FC = () => {
+export default function Skills() {
     return (
         <div className="text-gray-200 mt-40">
             <div className="max-w-6xl mx-auto px-0 py-2">
@@ -57,7 +57,7 @@ export const Skills: React.FC = () => {
                                 <div className="w-10 h-10 inline-flex items-center justify-center rounded-full bg-green-100 text-green-500 mb-5 flex-shrink-0 p-2">
                                     <ReactIcon />
                                 </div>
-                                <div className="flex-grow h-[20rem] w-[16rem] md:h-[21rem] md:w-[22rem] lg:h-[21rem] lg:w-[20rem]">
+                                <div className="flex-grow h-[20rem] w-[15rem] md:h-[21rem] md:w-[22rem] lg:h-[21rem] lg:w-[20rem]">
                                     <span className="absolute inset-x-0 bottom-0 h-2 bg-gradient-to-r from-[#44BCFF] via-[#FF44EC] to-[#FF675E]"></span>
                                     <h2 className="text-lg md:text-lg lg:text-xl title-font font-medium mb-3">Front End</h2>
                                     <ul className="text-sm text-justify">
@@ -82,7 +82,7 @@ export const Skills: React.FC = () => {
                                 <div className="w-10 h-10 inline-flex items-center justify-center rounded-full bg-blue-100 text-blue-500 mb-5 flex-shrink-0">
                                     <FlutterIcon />
                                 </div>
-                                <div className="flex-grow h-[20rem] w-[16rem] md:h-[21rem] md:w-[22rem] lg:h-[21rem] lg:w-[20rem]">
+                                <div className="flex-grow h-[20rem] w-[15rem] md:h-[21rem] md:w-[22rem] lg:h-[21rem] lg:w-[20rem]">
                                     <span className="absolute inset-x-0 bottom-0 h-2 bg-gradient-to-r from-[#44BCFF] via-[#FF44EC] to-[#FF675E]"></span>
                                     <h2 className="text-lg md:text-lg lg:text-xl title-font font-medium mb-3">Mobile</h2>
                                     <ul className="text-sm text-justify">
@@ -102,7 +102,7 @@ export const Skills: React.FC = () => {
                                 <div className="w-10 h-10 inline-flex items-center justify-center rounded-full bg-yellow-100 text-yellow-500 mb-5 flex-shrink-0">
                                     <DockerIcon />
                                 </div>
-                                <div className="flex-grow h-[20rem] w-[16rem] md:h-[21rem] md:w-[22rem] lg:h-[21rem] lg:w-[20rem]">
+                                <div className="flex-grow h-[20rem] w-[15rem] md:h-[21rem] md:w-[22rem] lg:h-[21rem] lg:w-[20rem]">
                                     <span className="absolute inset-x-0 bottom-0 h-2 bg-gradient-to-r from-[#44BCFF] via-[#FF44EC] to-[#FF675E]"></span>
                                     <h2 className="text-lg md:text-lg lg:text-xl title-font font-medium mb-3">Technologies</h2>
                                     <ul className="text-sm text-justify">
@@ -125,4 +125,3 @@ export const Skills: React.FC = () => {
     )
 }
 
-export default Skills;

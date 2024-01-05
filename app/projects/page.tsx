@@ -59,7 +59,7 @@ export default function Projects() {
           Here are a few of my live, real-world projects
         </p>
         <div className="max-w-md md:max-w-lg lg:max-w-5xl mx-auto px-0 py-2">
-          <div className="grid-cols-1 grid md:grid-cols-1 lg:grid-cols-2 p-6 md:p-10 mx-auto gap-10 md:gap-20">
+          <div className="grid-cols-1 grid md:grid-cols-1 lg:grid-cols-2 p-6 md:p-10 mx-auto gap-20 md:gap-20">
             {projects.map((project, index) => (
               <div key={index} className="relative">
                 <div className="flex flex-col shadow-sm h-[26rem] w-auto md:h-[28rem] md:w-auto lg:h-[28rem] lg:w-auto bg-gray-800 p-8 rounded-2xl">
