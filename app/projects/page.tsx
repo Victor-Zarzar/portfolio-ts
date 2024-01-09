@@ -1,6 +1,8 @@
+'use client'
 import React from 'react'
 import Image from "next/image";
 import Link from "next/link";
+import { Fade } from 'react-awesome-reveal';
 
 export default function Projects() {
 
@@ -46,7 +48,9 @@ export default function Projects() {
   return (
     <div className="col-span-4 mx-auto">
       <div className="p-6">
-        <h2 className="title-projects mb-4 text-4xl font-extrabold leading-10 tracking-tight md:text-2xl lg:text-4xl text-blue-500 text-center mt-14">Projects</h2>
+        <Fade>
+          <h2 className="title-projects mb-4 text-4xl font-extrabold leading-10 tracking-tight md:text-2xl lg:text-4xl text-blue-500 text-center mt-14">Projects</h2>
+        </Fade>
         <div className="flex mt-6 justify-center">
           <div className="w-32 h-1 rounded-full bg-indigo-500 inline-flex"></div>
         </div>

@@ -1,15 +1,19 @@
+'use client'
 import React from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
+import { Slide } from "react-awesome-reveal";
 
 export default function Header() {
     return (
         <div className="py-8 z-10 font-serif mt-40 md:mt-5">
             <div className="flex flex-col md:flex-row items-center max-w-6xl px-6 py-8 mx-auto">
                 <div className="w-full md:w-1/2 py-8">
-                    <h1 className="text-purple-900 text-2xl md:text-3xl lg:text-4xl font-semibold leading-none tracking-tighter">
-                        Welcome to <p className="text-blue-500">My Portfolio, </p> I´am Web/Mobile Developer🖖🏻.
-                    </h1>
+                    <Slide>
+                        <h1 className="text-purple-900 text-2xl md:text-3xl lg:text-4xl font-semibold leading-none tracking-tighter">
+                            Welcome to <p className="text-blue-500">My Portfolio, </p> I´am Web/Mobile Developer🖖🏻.
+                        </h1>
+                    </Slide>
                 </div>
                 <div className="w-full md:w-1/2 py-8 text-right">
                     <Image

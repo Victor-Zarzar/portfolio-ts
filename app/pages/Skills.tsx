@@ -1,8 +1,10 @@
+'use client'
 import React from 'react'
 import Image from "next/image";
 import ReactIcon from '../icons/react';
 import FlutterIcon from '../icons/flutter';
 import DockerIcon from '../icons/docker';
+import { Fade } from 'react-awesome-reveal';
 
 export default function Skills() {
 
@@ -10,7 +12,9 @@ export default function Skills() {
         <div className="text-gray-200 mt-40">
             <div className="max-w-6xl mx-auto px-0 py-2">
                 <div className="text-center mb-20">
-                    <h1 className="title-skills mb-4 text-4xl font-extrabold leading-10 tracking-tight md:text-2xl lg:text-4xl text-blue-500 text-center">Skills</h1>
+                    <Fade >
+                        <h1 className="title-skills mb-4 text-4xl font-extrabold leading-10 tracking-tight md:text-2xl lg:text-4xl text-blue-500 text-center">Skills</h1>
+                    </Fade>
                     <p className="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto text-purple-900 md:text-2xl lg:text-2xl font-semibold tracking-tighter">Some of the technologies I use in my daily life.</p>
                     <div className="flex mt-6 justify-center">
                         <div className="w-32 h-1 rounded-full bg-indigo-500 inline-flex">

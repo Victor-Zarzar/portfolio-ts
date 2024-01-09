@@ -14,12 +14,16 @@ export default async function handler(_req: NextApiRequest, res: NextApiResponse
         return res.status(200).json({ isPlaying: false });
     }
 
-    const isPlaying = song.is_playing;
-    const title = song.item.name;
-    const artist = song.item.artists.map((_artist: { name: any; }) => _artist.name).join(', ')
-    const album = song.item.album_name;
-    const albumImage = song.item.album.images[0].url;
-    const songUrl = song.item.external_urls.spotify;
+    const isPlaying = song.is_playing
+    const name = song.item.name
+    const artist = song.item.artists
+      .map((_artist: { name: string }) => {
+        return _artist.name
+      })
+      .join(', ')
+    const album = song.item.album.name
+    const albumImage = song.item.album.images[0].url
+    const songUrl = song.item.external_urls.spotify
 
     res.setHeader(
         'Cache-Control',
@@ -32,6 +36,6 @@ export default async function handler(_req: NextApiRequest, res: NextApiResponse
         artist,
         isPlaying,
         songUrl,
-        title,
+        name,
     })
 }

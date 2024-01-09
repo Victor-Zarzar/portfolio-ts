@@ -1,12 +1,15 @@
+'use client'
 import React from 'react'
-import NowPlaying from '../components/NowPlaying'
+import { Fade } from 'react-awesome-reveal'
 
 export default function Location() {
     return (
         <>
             <div className="col-span-4 mt-20">
                 <div className="rounded-lg p-6">
-                    <h2 className="title-location mb-4 text-4xl font-extrabold leading-10 tracking-tight md:text-2xl lg:text-4xl text-blue-500 text-center mt-14">My Current Location</h2>
+                    <Fade>
+                        <h2 className="title-location mb-4 text-4xl font-extrabold leading-10 tracking-tight md:text-2xl lg:text-4xl text-blue-500 text-center mt-14">My Current Location</h2>
+                    </Fade>
                     <p className="text-base leading-relaxed text-center xl:w-2/4 lg:w-3/4 mx-auto text-purple-900 md:text-2xl lg:text-2xl font-semibold tracking-tighter mt-5">
                         Novo Hamburgo, RS - Brazil
                     </p>
@@ -58,9 +61,6 @@ export default function Location() {
                         </a>
                     </li>
                 </ul>
-            </div>
-            <div>
-                <NowPlaying />
             </div>
         </>
     )

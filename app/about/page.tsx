@@ -1,3 +1,4 @@
+'use client'
 import React from 'react'
 import Image from "next/image";
 import Link from "next/link";
@@ -5,13 +6,16 @@ import { TbFileDownload } from "react-icons/tb";
 import { FaBug } from "react-icons/fa";
 import { FaDev } from "react-icons/fa6";
 import { IoSchool } from "react-icons/io5";
+import { Fade } from "react-awesome-reveal";
 
 export default function About() {
   return (
     <>
       <div className="col-span-4">
         <div className="rounded-lg p-6">
-          <h2 className="title-about mb-4 text-4xl font-extrabold leading-10 tracking-tight md:text-2xl lg:text-4xl text-blue-500 text-center mt-14">About Me</h2>
+          <Fade>
+            <h2 className="title-about mb-4 text-4xl font-extrabold leading-10 tracking-tight md:text-2xl lg:text-4xl text-blue-500 text-center mt-14">About Me</h2>
+          </Fade>
           <div className="flex mt-6 justify-center">
             <div className="w-32 h-1 rounded-full bg-indigo-500 inline-flex">
             </div>
@@ -31,7 +35,9 @@ export default function About() {
           </p>
         </div>
         <div className="rounded-lg p-6 mt-20">
-          <h2 className="title-about mb-4 text-4xl font-extrabold leading-10 tracking-tight md:text-2xl lg:text-4xl text-blue-500 text-center mt-14">Experience Tech</h2>
+          <Fade>
+            <h2 className="title-about mb-4 text-4xl font-extrabold leading-10 tracking-tight md:text-2xl lg:text-4xl text-blue-500 text-center mt-14">Experience Tech</h2>
+          </Fade>
           <div className="flex mt-6 justify-center">
             <div className="w-32 h-1 rounded-full bg-indigo-500 inline-flex">
             </div>
@@ -51,7 +57,9 @@ export default function About() {
         </div>
       </div>
       <div className="rounded-lg p-6 mt-20">
-        <h2 className="title-about mb-4 text-4xl font-extrabold leading-10 tracking-tight md:text-2xl lg:text-4xl text-blue-500 text-center mt-14">Education</h2>
+        <Fade >
+          <h2 className="title-about mb-4 text-4xl font-extrabold leading-10 tracking-tight md:text-2xl lg:text-4xl text-blue-500 text-center mt-14">Education</h2>
+        </Fade>
         <div className="flex mt-6 justify-center">
           <div className="w-32 h-1 rounded-full bg-indigo-500 inline-flex">
           </div>
@@ -64,7 +72,9 @@ export default function About() {
         </div>
       </div>
       <div className="rounded-lg p-6 mt-20">
-        <h2 className="title-about mb-4 text-4xl font-extrabold leading-10 tracking-tight md:text-2xl lg:text-4xl text-blue-500 text-center mt-14">Certifications</h2>
+        <Fade>
+          <h2 className="title-about mb-4 text-4xl font-extrabold leading-10 tracking-tight md:text-2xl lg:text-4xl text-blue-500 text-center mt-14">Certifications</h2>
+        </Fade>
         <div className="flex mt-6 justify-center">
           <div className="w-32 h-1 rounded-full bg-indigo-500 inline-flex">
           </div>
@@ -126,7 +136,9 @@ export default function About() {
           </div>
         </div>
         <div className="rounded-lg p-6 mt-20">
+          <Fade>
           <h2 className="title-about mb-4 text-4xl font-extrabold leading-10 tracking-tight md:text-2xl lg:text-4xl text-blue-500 text-center mt-14">Languages</h2>
+          </Fade>
           <div className="flex mt-6 justify-center">
             <div className="w-32 h-1 rounded-full bg-indigo-500 inline-flex">
             </div>
