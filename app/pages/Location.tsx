@@ -1,4 +1,5 @@
 import React from 'react'
+import NowPlaying from '../components/NowPlaying'
 
 export default function Location() {
     return (
@@ -57,6 +58,9 @@ export default function Location() {
                         </a>
                     </li>
                 </ul>
+            </div>
+            <div>
+                <NowPlaying />
             </div>
         </>
     )

@@ -1,5 +1,5 @@
 import { Metadata } from "next";
-import Header from "./pages/Header";
+import Header from "./components/Header";
 import Location from "./pages/Location";
 import Skills from "./pages/Skills";
 
