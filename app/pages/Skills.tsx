@@ -5,6 +5,7 @@ import FlutterIcon from '../icons/flutter';
 import DockerIcon from '../icons/docker';
 
 export default function Skills() {
+
     return (
         <div className="text-gray-200 mt-40">
             <div className="max-w-6xl mx-auto px-0 py-2">
